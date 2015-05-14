@@ -1,10 +1,13 @@
-log=/vagrant/temp/install_gawcurcra15.log
+log=/vagrant/temp/install_flexdm.log
 
 echo Getting code from git | tee -a $log
-git clone https://github.com/uomsystemsbiology/hbgm.git ~/gawcurcra15/Examples
+git clone https://bitbucket.org/madisonflannery/flexdm.git ~/flexdm
+
+echo unzipping FlexDM zipfile | tee -a $log
+unzip -o ~/flexdm/FlexDM.zip -d ~/flexdm
 
 echo Getting build info from git | tee -a $log
-git --git-dir ~/gawcurcra15/Examples/.git log --max-count=1 --format=format:"Last Commit: %h%nAuthor: %an%nCommit Date: %ad%n" > /vagrant/temp/build_info.txt
+git --git-dir ~/flexdm/.git log --max-count=1 --format=format:"Last Commit: %h%nAuthor: %an%nCommit Date: %ad%n" > /vagrant/temp/build_info.txt
 printf '\nEnvironment built at ' >> /vagrant/temp/build_info.txt
 date >> /vagrant/temp/build_info.txt
 
