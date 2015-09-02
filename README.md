@@ -1,6 +1,6 @@
 ### Overview
 
-This is the reference environment for the manuscript ['FlexDM: Enabling robust and reliable parallel data mining using WEKA'](http://arxiv.org/abs/1412.5720].  It executes code to reproduce specific results described in the manuscript.   
+This is the reference environment for the manuscript ['FlexDM: Enabling robust and reliable parallel data mining using WEKA'](http://arxiv.org/abs/1412.5720).  It executes code to reproduce specific results described in the manuscript.   
 
 To find other versions of this reference environment, see Other Links below.  To learn more about reference environments, [see the detailed description here](http://uomsystemsbiology.github.io/reference-environments/).  
 
