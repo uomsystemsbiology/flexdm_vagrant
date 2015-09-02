@@ -1,10 +1,7 @@
 log=/vagrant/temp/install_flexdm.log
 
 echo Getting code from git | tee -a $log
-git clone https://bitbucket.org/madisonflannery/flexdm.git ~/flexdm
-
-echo unzipping FlexDM zipfile | tee -a $log
-unzip -o ~/flexdm/FlexDM.zip -d ~/flexdm
+git clone -b current_release --single-branch https://github.com/madiflannery/FlexDM.git ~/flexdm
 
 echo Getting build info from git | tee -a $log
 git --git-dir ~/flexdm/.git log --max-count=1 --format=format:"Last Commit: %h%nAuthor: %an%nCommit Date: %ad%n" > /vagrant/temp/build_info.txt
