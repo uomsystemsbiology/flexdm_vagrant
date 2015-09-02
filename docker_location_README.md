@@ -1,6 +1,6 @@
 ### Overview
 
-This is the reference environment for the manuscript ['FlexDM: Enabling robust and reliable parallel data mining using WEKA'](https://arxiv.org/abs/1412.5720](https://arxiv.org/abs/1412.5720).  It executes code to reproduce specific results described in the manuscript.   
+This is the reference environment for the manuscript ['FlexDM: Enabling robust and reliable parallel data mining using WEKA'](https://arxiv.org/abs/1412.5720)(https://arxiv.org/abs/1412.5720).  It executes code to reproduce specific results described in the manuscript.   
 
 To find other versions of this reference environment, see Other Links below.  To learn more about reference environments, [see the detailed description here](https://uomsystemsbiology.github.io/reference-environments/).    
 
@@ -18,7 +18,7 @@ This will start the container and execute a script to reproduce the results desc
 
 ### Other links
 
-[Manuscript link](ttp://arxiv.org/abs/1412.5720)
+[Manuscript link](https://arxiv.org/abs/1412.5720)
 
 [Vagrant-managed virtual machine](https://github.com/uomsystemsbiology/flexdm_vagrant)
 
