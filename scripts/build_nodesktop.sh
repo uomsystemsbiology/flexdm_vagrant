@@ -15,5 +15,8 @@ echo Copying shell script to home directory | tee -a $log
 sudo cp /vagrant/temp/data/run_experiments.sh /home/sbl/run_experiments.sh
 sudo chmod 777 /home/sbl/run_experiments.sh
 
+echo Copying login message to /etc/motd | tee -a $log
+sudo cp /vagrant/temp/data/motd /etc/motd
+
 echo Linking the shell script into the root folder | tee -a $log
 sudo ln -sv /home/sbl/run_experiments.sh /run_experiments.sh
