@@ -20,7 +20,7 @@ This will start a virtual machine with scripts to run which reproduce results de
 
 [Manuscript link](ttp://arxiv.org/abs/1412.5720)
 
-[Docker container][Docker container](https://hub.docker.com/r/uomsystemsbiology/flexdm/)
+[Docker container](https://hub.docker.com/r/uomsystemsbiology/flexdm/)
 
 [Bootable ISO](https://dx.doi.org/10.5281/zenodo.22415)
 
