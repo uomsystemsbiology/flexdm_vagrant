@@ -18,7 +18,7 @@ This will start a virtual machine with scripts to run which reproduce results de
 
 ### Other links
 
-[Manuscript link](ttp://arxiv.org/abs/1412.5720)
+[Manuscript link](http://arxiv.org/abs/1412.5720)
 
 [Docker container](https://hub.docker.com/r/uomsystemsbiology/flexdm/)
 
